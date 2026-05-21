@@ -1,0 +1,9 @@
+app:
+  jwt:
+    secret: test-secret-key-must-be-at-least-32-chars
+    expiration-ms: 3600000
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
